@@ -1,9 +1,10 @@
+import {useState} from 'react';
+
 function Contador(params) {
-    let contador = 5;
+    const [contador,setContador] = useState(1);
 
     function adicionarContador() {
-        contador = contador + 1;
-        console.log(contador);
+        setContador(contador+1);
     }
 
     return (
