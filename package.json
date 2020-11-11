@@ -1,0 +1,26 @@
+{
+  "name": "modern-webapp-example",
+  "version": "1.0.0",
+  "description": "modern-webapp-example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadyueh/modern-webapp-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadyueh/modern-webapp-example/issues"
+  },
+  "homepage": "https://github.com/shadyueh/modern-webapp-example#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
