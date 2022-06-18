@@ -9,6 +9,8 @@ function Contador(params) {
 
     return (
         <div>
+            <h1>Contador</h1>
+            <p>Clique no botão para adicionar mais 1 ponto.</p>
             <div>{contador}</div>
             <button onClick={adicionarContador}>Adicionar</button>
         </div>
