@@ -4,9 +4,11 @@ services:
 
   sample:
     container_name: contador
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: node:16.15.1-alpine
+    working_dir: /app
+    command: >
+          sh -c  "npm install &&
+          npm run dev"
     volumes:
       - '.:/app'
       - '/app/node_modules'
